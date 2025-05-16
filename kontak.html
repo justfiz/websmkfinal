@@ -7,10 +7,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
     body {
-      padding-top: 80px;
+      display: flex;
+      flex-direction: column;
       font-family: 'Segoe UI', sans-serif;
       background-color: #f0f2f5;
+      padding-top: 80px;
+    }
+    main {
+      flex: 1;
     }
     .contact-box {
       background-color: #f8f9fa;
@@ -25,9 +34,6 @@
     h2 {
       font-weight: 700;
       color: #212529;
-    }
-    Footer {
-      margin-top: 35px;
     }
   </style>
 </head>
@@ -53,34 +59,32 @@
     </div>
   </nav>
 
-  <!-- Kontak -->
-  <section class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="800">Hubungi Kami</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-8" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
-          <div class="contact-box">
-            <p><strong>Alamat:</strong><br>
-              JL. PROF. M. YAMIN, SH NO. 1 TANJUNG AMPALU, Kabupaten Sijunjung</p>
-
-            <p><strong>Email:</strong><br>
-              smkn1sijunjung@email.com</p>
-
-            <p><strong>Telepon:</strong><br>
-              (0754) 123456</p>
-
-            <p><strong>Jam Operasional:</strong><br>
-              Senin - Jumat, 08.00 - 16.00 WIB</p>
-
-            <p><strong>Media Sosial:</strong><br>
-              Instagram: @smkn1sijunjung<br>
-              Facebook: SMK Negeri 1 Sijunjung
-            </p>
+  <!-- Konten utama -->
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="800">Hubungi Kami</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+            <div class="contact-box">
+              <p><strong>Alamat:</strong><br>
+                JL. PROF. M. YAMIN, SH NO. 1 TANJUNG AMPALU, Kabupaten Sijunjung</p>
+              <p><strong>Email:</strong><br>
+                smkn1sijunjung@email.com</p>
+              <p><strong>Telepon:</strong><br>
+                (0754) 123456</p>
+              <p><strong>Jam Operasional:</strong><br>
+                Senin - Jumat, 08.00 - 16.00 WIB</p>
+              <p><strong>Media Sosial:</strong><br>
+                Instagram: @smkn1sijunjung<br>
+                Facebook: SMK Negeri 1 Sijunjung
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3" data-aos="fade-up" data-aos-offset="0">
